@@ -1,0 +1,379 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWIFTEENS - Taylor Swift Fandom on Solana</title>
+    <meta name="description" content="Find your tribe in the world of SWIFTEENS and embrace the Solana spirit!">
+    <meta property="og:image" content="images/SWIFTEENSlogos.png">
+    <link rel="icon" href="images/TLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&amp;family=Nunito:wght@600&amp;family=Poppins:wght@500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0">
+    <link href="css/aos.css" rel="stylesheet">
+    <script src="js/aos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/chart.umd.min.js"></script>
+    <script src="js/chartjs-plugin-datalabels.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: 'black',
+                        pinkk: '#ff31f3',
+                        darkpink: '#AC198D',
+                        greenn: '#73FFD9',
+                        darkgreen: '#39A097'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="body" class="bg-black text-white relative pb-20">
+
+    <!-- NAVBAR -->
+    <nav class="stickyNav">
+        <div class="flex items-center justify-between w-full max-w-[1200px] mx-auto px-5 py-3">
+            <div class="flex-center gap-1">
+                <img src="images/TLogo.png" alt="logo" class="h-8 md:h-14 object-contain">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-pinkk md:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg> -->
+            </div>
+            <div class="nunito text-[16px] flex-1 items-center justify-center gap-10 hidden md:flex">
+                <a href="#body" class="text-pinkk">Home</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="https://docs.swiifteens.fun" class="hover:text-pinkk">Whitepaper</a>
+            </div>
+            <div class="flex-center gap-2 md:gap-5">
+                <a href="#" class="">
+                    <img src="images/audiomute.svg" alt="" class="cursor-pointer h-6 md:h-6 object-contain audioBtn">
+                </a>
+                <a href="#">
+                    <img src="images/globe.svg" alt="language" class="h-6 md:h-6 object-contain">
+                </a>
+                <a href="#" class="bg-pinkk px-5 py-1 nunito">BUY $SWIFTEENS</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="flex-center flex-col mt-14 md:mt-20">
+         <div class="banners">
+          <img src="logo.png">
+
+         </div>
+        <div class="bg-pinkgrad h-[2px] w-full"></div>
+        <div class="flex-center my-5 gap-10 md:gap-20">
+            <a href="https://t.me/SWIFTEENSol" class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b1.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Telegram</p>
+            </a>
+            <a href="https://x.com/SWIFTEENSol" class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b2.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Twitter</p>
+            </a>
+        </div>
+        <!-- <div class="bg-pinkgrad h-[2px] w-full"></div> -->
+        <div class="flex-center gap-2 md:mt-10 rounded-full border border-darkpink p-2">
+            <p class="text-gray-400 text-[10px] md:text-xl monts contract_add">
+                BFek4xVLbyW9w2cfcuFxh974f7TtAjWWjJq2kSrgthGL</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-darkpink w-5 h-5 md:w-6 md:h-6 mb-1 copyBtn cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ABOUT SWIFTEENS -->
+    <section class="flex md:hidden flex-col my-5 md:mt-32 max-w-[1000px] mx-auto w-[95%]">
+        <div class="mx-10">
+            <!-- <h1 class="text-4xl md:text-7xl monts text-pinkgrad">About SWIFTEENS</h1> -->
+            <p class="text-gray-300 text-lg mt-2 nunito text-justify">
+                <span class="text-pinkk italic underline">SWIFTEENS </span>emerged from a vision to infuse the strength of Solana with the nimbleness of a Fan's movement.
+                <br><br>
+                Our mission is to create an ecosystem that not only empowers users with cutting-edge financial tools but
+                also adds a touch of joy and innovation to their crypto journey.<br><br>
+                Solidify your bag with SOL on SWIFTEENS.
+            </p>
+        </div>
+    </section>
+
+    <!-- HOW TO BUY  -->
+    <section class="hero-bg w-full">
+        <div class="relative max-w-[1000px] mx-auto w-[95%] md:my-10 py-20">
+            <h1 class="text-5xl mx-5 md:mx-0 md:text-7xl monts mb-10 p-5">New to Solana?</h1>
+            <img src="images/how-to-buy40.png" alt="how to buy" class="w-full object-contain hidden md:block">
+            <img src="images/how-to-buy50.png" alt="how to buy" class="w-[90%] object-contain md:hidden mx-auto">
+        </div>
+    </section>
+
+    <!-- SWIFTEENS NFT -->
+    <section class="hidden smd:flex flex-col mt-10 md:mt-32 mb-10 max-w-[1000px] mx-auto w-[95%]">
+        <div class="">
+            <h1 class="text-4xl md:text-7xl monts text-gray-500"><span class="text-white">SWIFTEENS</span>NFT</h1>
+            <p class="opacity-60 md:text-xl mt-1"></p>
+            <video playsinline="" src="media/robot.mp4" autoplay="" muted="" loop="" class="rounded-xl mt-7 min-h-[270px] object-cover"></video>
+        </div>
+        <div class="flex-center gap-5 md:gap-10 w-full mt-10">
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b1.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">NFT</p>
+            </div>
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b2.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Learn More</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SWIFTEENS STAKING -->
+    <section class="hidden smd:flex flex-col mt-32 mb-10 max-w-[1000px] mx-auto w-[95%]">
+        <div class="">
+            <h1 class="text-4xl md:text-7xl monts text-gray-500"><span class="text-white">SWIFTEENS</span>Staking</h1>
+            <p class="opacity-60 md:text-xl mt-1">Empower your holdings through our staking platform, earning rewards
+                while contributing to network security.</p>
+            <video playsinline="" src="media/robot.mp4" autoplay="" muted="" loop="" class="rounded-xl mt-7 min-h-[270px] object-cover"></video>
+        </div>
+        <div class="flex-center gap-5 md:gap-10 w-full mt-10">
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b1.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Stake</p>
+            </div>
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b2.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Learn More</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SWIFTEENS SHOP -->
+    <section class="hidden smd:flex flex-col mt-32 mb-10 max-w-[1000px] mx-auto w-[95%]">
+        <div class="">
+            <h1 class="text-4xl md:text-7xl monts text-gray-500"><span class="text-white">SWIFTEENS</span>Shop</h1>
+            <p class="opacity-60 md:text-xl mt-1">Discover exclusive merchandise and unique items in the SWIFTEENS Shop,
+                where crypto meets style.</p>
+            <video playsinline="" src="media/robot.mp4" autoplay="" muted="" loop="" class="rounded-xl mt-7 min-h-[270px] object-cover"></video>
+        </div>
+        <div class="flex-center gap-5 md:gap-10 w-full mt-10">
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b1.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Shop</p>
+            </div>
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b2.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Learn More</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SWIFTEENS AI -->
+    <section class="hidden smd:flex flex-col mt-32 mb-10 max-w-[1000px] mx-auto w-[95%]">
+        <div class="">
+            <h1 class="text-4xl md:text-7xl monts text-gray-500"><span class="text-white">SWIFTEENS</span>AI</h1>
+            <p class="opacity-60 md:text-xl mt-1">Experience the future with SWIFTEENS's AI integration, bringing
+                intelligence and innovation to the forefront.</p>
+            <video playsinline="" src="media/robot.mp4" autoplay="" muted="" loop="" class="rounded-xl mt-7 min-h-[270px] object-cover"></video>
+        </div>
+        <div class="flex-center gap-5 md:gap-10 w-full mt-10">
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b1.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">AI</p>
+            </div>
+            <div class="relative w-[150px] md:w-[200px] h-14">
+                <img src="images/b2.png" alt="btn" class="object-contain w-full h-full">
+                <p class="center-btn text-sm md:text-lg w-full text-center">Learn More</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOKENOMICS -->
+    <section class="relative max-w-[1100px] mx-auto w-[95%] md:my-40 mt-20">
+        <img src="images/borderbg.png" alt="border" class="absolute w-full object-contain -z-10 hidden md:block">
+        <div class="flex flex-col md:flex-row items-center justify-between w-full">
+            <div class="flex-center flex-col w-[80%] max-w-[500px] py-5 bg-black">
+                <div style="width: 100%; display: flex; align-items: center; justify-content: center;" class="relative" id="chart--container">
+                    <p class="center-btn monts text-2xl text-pinkgradsx">SWIFTEENS</p>
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+            <div class="md:w-[550px] p-5">
+                <h1 class="monts text-4xl md:mt-20 text-pinkk">Total SWIFTEENS Tokens: <br> <span class="text-gray-400">100000000 $SWIFTEENS</span> </h1>
+                <div class="mt-10">
+                    <h1 class="nunito text-2xl">Trading Token Tax</h1>
+                    <div class="flex gap-5 flex-wrap text-sm my-2">
+                        <p class="border w-[100px] p-1 text-center text-gray-400 sborder-[#625dff7d]">Buy Tax 0%</p>
+                        <p class="border w-[100px] p-1 text-center text-gray-400 sborder-[#625dff7d]">Sell Tax 0%</p>
+                        <p class="border w-[100px] p-1 text-center text-gray-400 sborder-[#625dff7d]">Transfer 0%</p>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <h1 class="monts text-4xl text-greenn">Token Allocation</h1>
+                    <div class="text-gray-400 text-sm nunito space-y-2 mt-2">
+                        
+                        <p> <span class="text-pinkgrad">✦</span> Liquidity: 76%</p>
+                        <p> <span class="text-pinkgrad">✦</span> Dev: 7% </p>
+                        <p> <span class="text-pinkgrad">✦</span> Marketing 8% </p>
+                        <p> <span class="text-pinkgrad">✦</span> CEX: 5% </p>
+                        <p> <span class="text-pinkgrad">✦</span> Airdrop: 4% </p>
+                        
+                                            
+                        <!-- <p> <span class="text-pinkgrad">✦</span> Emergency/ Fee/ Burn: 1.6% </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section class="relative max-w-[1250px] mx-auto w-[95%] md:my-40 mt-20">
+        <h1 class="text-5xl mx-5 md:mx-0 md:text-7xl monts">Roadmap</h1>
+        <div class="mt-10 roadCont rounded-lg">
+            <!-- PHASE 1 -->
+            <div class="border border-pinkk p-5 rounded-lg w-[90%] md:mx-0 mx-auto md:w-[400px] roadClass">
+                <div class="mb-5">
+                    <h1 class="text-darkpink text-lg nunito">Phase 1</h1>
+                    <p class="text-greenn text-2xl monts">The Rise of SWIFTEENS</p>
+                </div>
+                <div>
+                    <h1 class="nunito text-xl">SWIFTEENS Genesis :</h1><p class="mt-2 nunito text-gray-400">- Conceptualization and Planning. </p>
+                        <p class="mt-2 nunito text-gray-400">- Formulation of the SWIFTEENS memecoin concept.</p>
+                        <p class="mt-2 nunito text-gray-400">- Initial team assembly and brainstorming sessions.</p>
+                    <p class="mt-2 nunito text-gray-400">- Introduce SWIFTEENS to the community through engaging social
+                        media campaigns and partnerships.</p>
+                        <p class="mt-2 nunito text-gray-400">- Launch SWIFTEENS token with a fair and transparent
+                        distribution.</p>
+                </div>
+                
+            </div>
+
+            <!-- PHASE 2 -->
+            <div class="border border-pinkk p-5 rounded-lg w-[90%] md:mx-0 mx-auto md:w-[400px]">
+                <div class="mb-5 ">
+                    <h1 class="text-darkpink text-lg nunito">Phase 2</h1>
+                    <p class="text-greenn text-2xl monts">Building Fans for SWIFTEENS</p>
+                </div>
+                <div>
+                    <h1 class="nunito text-xl">Powerful community building Ideas</h1>
+                     <p class="mt-2 nunito text-gray-400">- Community Building.</p>
+                         <p class="mt-2 nunito text-gray-400">- Launch social media channels.</p>
+                         <p class="mt-2 nunito text-gray-400">- Engage with the community, gather feedback, and build anticipation.</p>
+                         <p class="mt-2 nunito text-gray-400">- Smart Contract Development.</p>
+                         <p class="mt-2 nunito text-gray-400">- 200 SWIFTEENS's Fans.</p>
+                </div>
+                
+            </div>
+
+            <!-- PHASE 3 -->
+            <div class="border border-pinkk p-5 rounded-lg w-[90%] md:mx-0 mx-auto md:w-[400px]">
+                <div class="mb-5 ">
+                    <h1 class="text-darkpink text-lg nunito">Phase 3</h1>
+                    <p class="text-greenn text-2xl monts">Launching SWIFTEENS on Solana</p>
+                </div>
+                <div>
+                    <h1 class="nunito text-xl">Stealth not Presale :</h1>
+                    <p class="mt-2 nunito text-gray-400">- Distribute and lock CEX, DEV tokens.</p>
+                    <p class="mt-2 nunito text-gray-400">- Revoke Minting and Burn the Liquidity permanently.</p>
+                    
+                    <p class="mt-2 nunito text-gray-400">- Launch with DEX Raydium AMM.</p>
+                    <p class="mt-2 nunito text-gray-400">- CG: List $SWIFTEENS on various platforms.</p>
+                    <p class="mt-2 nunito text-gray-400">- Marketing and Partnerships</p>
+                    <p class="mt-2 nunito text-gray-400">- 700 SWIFTEENS's Fans.</p>
+                </div>
+              
+            </div>
+
+            <!-- PHASE 4 -->
+            <div class="border border-pinkk p-5 rounded-lg w-[90%] md:mx-0 mx-auto md:w-[400px]">
+                <div class="mb-5 ">
+                    <h1 class="text-darkpink text-lg nunito">Phase 4</h1>
+                    <p class="text-greenn text-2xl monts">Cultivating the SWIFTEENS Oasis</p>
+                </div>
+                <div>
+                    <h1 class="nunito text-xl">Bull Market starts here:</h1>
+                    <p class="mt-2 nunito text-gray-400">- Introduce SWIFTEENS Staking Beta, allowing users to stake their SWIFTEENS tokens and earn rewards.</p>
+                     <p class="mt-2 nunito text-gray-400">- Launch the SWIFTEENS Shop with exclusive merchandise and limited-edition NFTs.</p>
+                      <p class="mt-2 nunito text-gray-400">- Create and mint NFT through SWIFTEENS platform.</p>
+                      <p class="mt-2 nunito text-gray-400">- Collaborate with digital artists and designers to create unique SWIFTEENS-themed collectibles.</p>
+                       <p class="mt-2 nunito text-gray-400">- 10000 SWIFTEENS's Fans.</p>
+                        <p class="mt-2 nunito text-gray-400">- More TBA.</p>
+                         
+                    
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="arrows opacity-50 flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrowLeft h-10 text-pinkk cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrowRight h-10 text-pinkk cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="relative max-w-[1200px] mx-auto w-[95%] my-20">
+        <div class="flex justify-center md:justify-between items-center border-b pb-2 border-gray-400">
+            <h1 class="hidden md:block text-4xl nunito">Buy SWIFTEENS</h1>
+            <div class="flex-center gap-5 md:gap-10">
+                <img src="images/dexscreen.png" alt="dexscreen" class="w-[150px] object-contain">
+                <img src="images/raydium.png" alt="Raydium" class="w-[150px] object-contain">
+            </div>
+        </div>
+        <div class="flex-center gap-10 my-5 border-b pb-5 border-gray-400 w-[80%] mx-auto">
+            <a href="https://t.me/SWIFTEENSol">
+                <img src="images/telegram.png" alt="Telegram" class="w-[30px] object-contain">
+            </a>
+            <a href="https://x.com/SWIFTEENSol">
+                <img src="twitter.3.ico" alt="X" class="w-[30px] object-contain">
+            </a>
+            
+        </div><p class="text-center mt-2 nunito text-gray-400">We are not affiliated with any brands whatsoever. All the graphics are generated using AI technology.</p>
+        <p class="text-center text-xl nunito">contact@swiifteens.fun</p>
+        <div class="flex-center mt-5">
+            <a href="https://docs.swiifteens.fun" class="bg-pinkk py-2 px-7 nunito text-white">Whitepaper</a>
+        </div>
+    </footer>
+
+    <!-- BOTTOM NAVBAR -->
+    <section class="bottom-0 fixed w-full bg-pinkgrad mds:hidden flex items-center justify-around p-3">
+        <a href="#" class="text-pinkks monts relative">
+            <p class="bg-red-500 absolute text-[9px] -top-1 px-1 py-[1px] rounded-md -right-6">Soon</p>
+            AI
+        </a>
+        <a href="https://swiifteens.fun/shop" class="text-pinkks monts relative">
+            <p class="bg-red-500 absolute text-[9px] -top-1 px-1 py-[1px] rounded-md -right-6">New</p>
+            Shop
+        </a>
+        <a href="#" class="text-pinkks monts relative">
+            <p class="bg-red-500 absolute text-[9px] -top-1 px-1 py-[1px] rounded-md -right-6">Soon</p>
+            Stake
+        </a>
+        <a href="#" class="text-pinkks monts relative">
+            <p class="bg-red-500 absolute text-[9px] -top-1 px-1 py-[1px] rounded-md -right-6">Soon</p>
+            NFTs
+        </a>
+    </section>
+
+    <script src="js/app.js"></script>
+
+<script src="js/chart.js"></script>
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
